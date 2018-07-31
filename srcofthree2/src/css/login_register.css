@@ -1,0 +1,55 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+li,ul{list-style: none;}
+.container{width: 1200px;margin:0 auto;}
+.avtive{display:block;}
+
+#top{border-bottom:1px solid #ccc;}
+#top .container{height: 100px;}
+#top .container a{display:block;width: 260px;height: 100px;}
+
+#body{padding-top:70px;}
+/* #body .container{} */
+#body .container input{padding-left:10px;}
+#body .container .main{width: 1000px;height: 514px;margin:0 auto;}
+#body .container .main .left{float: left;}
+#body .container .main .right{float: right;width:360px;border:1px solid #888;box-shadow:1px 1px 5px rgba(0, 0, 0, 0.5);}
+#body .container .main .right .up{width: 360px;height: 51px;;}
+#body .container .main .right .up li{width: 180px;height: 51px;border-bottom:1px solid #ccc;float: left;font-size: 18px;line-height: 51px;text-align:center;}
+#body .container .main .right .up li:first-child{color:red;border-bottom:2px solid red;}
+/* #body .container .main .right .login{} */
+#body .container .main .right .login div{height: 66px;padding-bottom:30px;}
+#body .container .main .right .login div input{display:block;width: 300px;height: 36px;margin:0 auto;border:1px solid #ccc;}
+#body .container .main .right .login p{width: 300px;height: 30px;margin:0 auto;font-size:16px;color:#666;text-align:right;line-height: 30px;}
+/* #body .container .main .right .login .third{} */
+#body .container .main .right .login .third input{width: 60px;display:inline-block;}
+#body .container .main .right .login .third input:first-child{width: 150px;margin-left:30px;}
+
+
+#body .container .main .right .login .fourth{padding:0px;height: 36px;}
+#body .container .main .right .login .fourth input{width: 20px;height: 20px;margin:0 0 0 30px;display:inline-block;}
+#body .container .main .right .login .fourth a{display:block;float:right;padding-right:30px;}
+/* #body .container .main .right .login .five{} */
+#body .container .main .right .login .five input{font-weight:bold;color:#fff;font-size:16px;height: 50px;background-color: #f42f2f;border:none;}
+#body .container .main .right .login .five input:hover{background:#f66;}
+
+
+#body .container .main .right .register{padding-top:30px;display:none;}
+#body .container .main .right .register div{height: 66px;padding-bottom:30px;}
+#body .container .main .right .register div input{display:block;width: 300px;height: 36px;margin:0 auto;border:1px solid #ccc;}
+#body .container .main .right .register .fourth{padding:0 30px;}
+#body .container .main .right .register .fourth input{display:inline-block;}
+#body .container .main .right .register .fourth .one{width: 150px;margin:0;}
+#body .container .main .right .register .fourth .two{width: 60px;margin:0;}
+#body .container .main .right .register .fourth .three{width: 60px;margin:0;}
+#body .container .main .right .register .fix{font-size: 12px;height: 30px;padding-left:30px;}
+#body .container .main .right .register .fix input{display:inline-block;width: 15px;height: 15px;}
+/* #body .container .main .right .register .seven{} */
+#body .container .main .right .register .seven input{font-size:16px;font-weight:bold;color:#fff;height: 50px;border:none;background-color: #f42f2f;}
+#body .container .main .right .register .seven input:hover{background:#f66;}
+
+/* #bottom{} */
+#bottom .container{height: 146px;border-top:1px solid #ccc;}
+#bottom .container .up{padding-top:30px;}
+#bottom .container .up p{font-size:12px;text-align:center;color:#333;line-height: 20px;}
+#bottom .container .down{text-align:center;}
+#bottom .container .down img{width: 35px;height: 35px;}

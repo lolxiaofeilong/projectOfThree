@@ -1,0 +1,788 @@
+/* 轮播图 */
+.c-banner{
+    height: 450px;
+}
+.c-banner img{
+    height: 450px;
+    width: 1410px;
+}
+
+
+
+/* 紫一推荐 */
+.c-ziyi .container{
+    margin-top:30px;
+    height: 580px;
+}
+.c-ziyitop{
+    border-bottom:1px solid #000;
+}
+.c-ziyitop h2,.c-ziyitop p{
+    display:inline-block;
+}
+.c-ziyitop h2{
+    font-size:22px;
+    line-height: 60px;
+    margin-right:30px;
+}
+.c-ziyitop a{
+    color:rgb(107, 106, 106);
+    float:right;
+    line-height: 60px;
+}
+.c-ziyimain{
+    height: 500px;
+    font-size:0;
+}
+.c-ziyiimg{
+    width: 260px;
+    height: 500px;    
+}
+.c-ziyim{
+    width: 676px;
+    height: 500px;
+}
+.c-ziyim a{
+    display:inline-block;
+    width: 50%;
+    height: 50%;
+    border-right:1px solid #DDD;
+    border-bottom:1px solid #DDD;
+    color:#000;
+    padding-top:8px;
+}
+.c-ziyim a:hover{
+    transform:rotateY(360deg);
+}
+.c-ziyim .c-name{
+    line-height: 30px;
+    font-size:16px;
+}
+.c-ziyim .c-price{
+    line-height: 30px;
+    font-size:16px;
+}
+.c-ziyim .c-price span{
+    color:rgb(243, 159, 32);
+    font-size:18px;
+}
+.c-ziyim img{
+    height: 180px;
+    width: 180px;
+    margin-left:90px;
+}
+.c-ziyir{
+    width: 264px;
+    height: 500px;
+    border-right:1px solid #ddd;
+    border-bottom:1px solid #DDD;
+    padding:0 20px;    
+}
+.c-ziyir h3{
+    line-height: 50px;
+    font-size:16px;
+}
+.c-ziyirm a{
+    margin-top:10px;
+    display:inline-block;
+    width: 224px;
+    height: 100px;
+    border-bottom:1px dotted #DDD;
+    color:#000;
+    position:relative;
+}
+.c-ziyirm img{
+    width: 75px;
+    height: 75px;
+}
+.c-ziyirm .c-name{
+    font-size:12px;
+    width: 149px;
+    padding-left:7px;
+    word-break:break-all;
+}
+.c-ziyirm .c-price span{
+    font-size:12px;
+    color:rgb(243, 159, 32);
+    position:absolute;
+    right:100px;
+    bottom:30px;
+}
+
+
+
+
+/* 热门品牌 */
+.c-hot .container{
+    height: 480px;
+}
+.c-hottitle h2{
+    display:inline-block;
+    line-height: 70px;
+    font-size:22px;
+}
+.c-hottitle a{
+    float:right;
+    color:#ccc;
+    margin-top:25px;
+}
+.c-hottu li{
+    width: 24.7%;
+    height: 410px;
+    display:inline-block;
+}
+.c-hotli1{
+    background: url("../img/c1.jpg")no-repeat;
+    position:relative;
+    border:1px solid #ddd;
+}
+.c-hotli2{
+    background: url("../img/c2.jpg")no-repeat;
+    position:relative;
+    border:1px solid #ddd;
+}
+.c-hotli3{
+    background: url("../img/c3.jpg")no-repeat;
+    position:relative;
+    border:1px solid #ddd;
+}
+.c-hotli4{
+    background: url("../img/c4.jpg")no-repeat;
+    position:relative;
+    border:1px solid #ddd;
+}
+.c-hottu img{
+    position:absolute;
+    bottom:70px;
+    left:115px;
+}
+.c-hotmain{
+    position:absolute;
+    bottom:15px;
+    left:43px;
+}
+.c-hotmain1{
+    position:absolute;
+    bottom:15px;
+    left:99px;
+}
+.c-hotmain2{
+    position:absolute;
+    bottom:15px;
+    left:67px;
+}
+.c-hotmain3{
+    position:absolute;
+    bottom:15px;
+    left:64px;
+}
+.c-hottu a{
+    color:rgb(82, 80, 80);
+}
+
+
+
+/* 女性保健 */
+.c-girl .container{
+    height: 580px;
+}
+.c-girltop{
+    border-bottom:1px solid #000;
+}
+.c-girltop h2,.c-girltop p{
+    display:inline-block;
+}
+.c-girltop h2{
+    font-size:22px;
+    line-height: 60px;
+    margin-right:30px;
+}
+.c-girltop p a{
+    color:rgb(109, 107, 107);
+    padding:0 5px;
+}
+.c-girltop p a:hover{
+    border-bottom:1px solid rgb(109, 107, 107);
+}
+.c-girlmore{
+    color:rgb(107, 106, 106);
+    float:right;
+    line-height: 60px;
+}
+.c-girlmain{
+    height: 500px;
+    font-size:0;
+}
+.c-girlimg{
+    width: 260px;
+    height: 500px;    
+}
+.c-girlm{
+    width: 676px;
+    height: 500px;
+}
+.c-girlm a{
+    display:inline-block;
+    width: 50%;
+    height: 50%;
+    border-right:1px solid #DDD;
+    border-bottom:1px solid #DDD;
+    color:#000;
+    padding-top:8px;
+}
+.c-girlm .c-name{
+    line-height: 30px;
+    font-size:16px;
+}
+.c-girlm .c-price{
+    line-height: 30px;
+    font-size:16px;
+}
+.c-girlm .c-price span{
+    color:rgb(243, 159, 32);
+    font-size:18px;
+}
+.c-girlm img{
+    height: 180px;
+    width: 180px;
+    margin-left:90px;
+}
+.c-girlr{
+    width: 264px;
+    height: 500px;
+    border-right:1px solid #ddd;
+    border-bottom:1px solid #DDD;
+    padding:0 20px;    
+}
+.c-girlr h3{
+    line-height: 50px;
+    font-size:16px;
+}
+.c-girlrm a{
+    margin-top:10px;
+    display:inline-block;
+    width: 224px;
+    height: 100px;
+    border-bottom:1px dotted #DDD;
+    color:#000;
+    position:relative;
+}
+.c-girlrm img{
+    width: 75px;
+    height: 75px;
+}
+.c-girlrm .c-name{
+    font-size:12px;
+    width: 149px;
+    padding-left:7px;
+    word-break:break-all;
+}
+.c-girlrm .c-price span{
+    font-size:12px;
+    color:rgb(243, 159, 32);
+    position:absolute;
+    right:100px;
+    bottom:30px;
+}
+
+
+
+/* 男性健康 */
+.c-boy .container{
+    height: 580px;
+}
+.c-boytop{
+    border-bottom:1px solid #000;
+}
+.c-boytop h2,.c-boytop p{
+    display:inline-block;
+}
+.c-boytop h2{
+    font-size:22px;
+    line-height: 60px;
+    margin-right:30px;
+}
+.c-boytop p a{
+    color:rgb(109, 107, 107);
+    padding:0 5px;
+}
+.c-boytop p a:hover{
+    border-bottom:1px solid rgb(109, 107, 107);
+}
+.c-boymore{
+    color:rgb(107, 106, 106);
+    float:right;
+    line-height: 60px;
+}
+.c-boymain{
+    height: 500px;
+    font-size:0;
+}
+.c-boyimg{
+    width: 260px;
+    height: 500px;    
+}
+.c-boym{
+    width: 676px;
+    height: 500px;
+}
+.c-boym a{
+    display:inline-block;
+    width: 50%;
+    height: 50%;
+    border-right:1px solid #DDD;
+    border-bottom:1px solid #DDD;
+    color:#000;
+    padding-top:8px;
+}
+.c-boym .c-name{
+    line-height: 30px;
+    font-size:16px;
+}
+.c-boym .c-price{
+    line-height: 30px;
+    font-size:16px;
+}
+.c-boym .c-price span{
+    color:rgb(243, 159, 32);
+    font-size:18px;
+}
+.c-boym img{
+    height: 180px;
+    width: 180px;
+    margin-left:90px;
+}
+.c-boyr{
+    width: 264px;
+    height: 500px;
+    border-right:1px solid #ddd;
+    border-bottom:1px solid #DDD;
+    padding:0 20px;    
+}
+.c-boyr h3{
+    line-height: 50px;
+    font-size:16px;
+}
+.c-boyrm a{
+    margin-top:10px;
+    display:inline-block;
+    width: 224px;
+    height: 100px;
+    border-bottom:1px dotted #DDD;
+    color:#000;
+    position:relative;
+}
+.c-boyrm img{
+    width: 75px;
+    height: 75px;
+}
+.c-boyrm .c-name{
+    font-size:12px;
+    width: 149px;
+    padding-left:7px;
+    word-break:break-all;
+}
+.c-boyrm .c-price span{
+    font-size:12px;
+    color:rgb(243, 159, 32);
+    position:absolute;
+    right:100px;
+    bottom:30px;
+}
+
+
+
+
+/* 孝敬爸妈 */
+.c-parent .container{
+    height: 580px;
+}
+.c-parenttop{
+    border-bottom:1px solid #000;
+}
+.c-parenttop h2,.c-parenttop p{
+    display:inline-block;
+}
+.c-parenttop h2{
+    font-size:22px;
+    line-height: 60px;
+    margin-right:30px;
+}
+.c-parenttop p a{
+    color:rgb(109, 107, 107);
+    padding:0 5px;
+}
+.c-parenttop p a:hover{
+    border-bottom:1px solid rgb(109, 107, 107);
+}
+.c-parentmore{
+    color:rgb(107, 106, 106);
+    float:right;
+    line-height: 60px;
+}
+.c-parentmain{
+    height: 500px;
+    font-size:0;
+}
+.c-parentimg{
+    width: 260px;
+    height: 500px;    
+}
+.c-parentm{
+    width: 676px;
+    height: 500px;
+}
+.c-parentm a{
+    display:inline-block;
+    width: 50%;
+    height: 50%;
+    border-right:1px solid #DDD;
+    border-bottom:1px solid #DDD;
+    color:#000;
+    padding-top:8px;
+}
+.c-parentm .c-name{
+    line-height: 30px;
+    font-size:16px;
+}
+.c-parentm .c-price{
+    line-height: 30px;
+    font-size:16px;
+}
+.c-parentm .c-price span{
+    color:rgb(243, 159, 32);
+    font-size:18px;
+}
+.c-parentm img{
+    height: 180px;
+    width: 180px;
+    margin-left:90px;
+}
+.c-parentr{
+    width: 264px;
+    height: 500px;
+    border-right:1px solid #ddd;
+    border-bottom:1px solid #DDD;
+    padding:0 20px;    
+}
+.c-parentr h3{
+    line-height: 50px;
+    font-size:16px;
+}
+.c-parentrm a{
+    margin-top:10px;
+    display:inline-block;
+    width: 224px;
+    height: 100px;
+    border-bottom:1px dotted #DDD;
+    color:#000;
+    position:relative;
+}
+.c-parentrm img{
+    width: 75px;
+    height: 75px;
+}
+.c-parentrm .c-name{
+    font-size:12px;
+    width: 149px;
+    padding-left:7px;
+    word-break:break-all;
+}
+.c-parentrm .c-price span{
+    font-size:12px;
+    color:rgb(243, 159, 32);
+    position:absolute;
+    right:100px;
+    bottom:30px;
+}
+
+
+
+
+/* 增强免疫 */
+.c-increate .container{
+    height: 580px;
+}
+.c-increatetop{
+    border-bottom:1px solid #000;
+}
+.c-increatetop h2,.c-increatetop p{
+    display:inline-block;
+}
+.c-increatetop h2{
+    font-size:22px;
+    line-height: 60px;
+    margin-right:30px;
+}
+.c-increatetop p a{
+    color:rgb(109, 107, 107);
+    padding:0 5px;
+}
+.c-increatetop p a:hover{
+    border-bottom:1px solid rgb(109, 107, 107);
+}
+.c-increatemore{
+    color:rgb(107, 106, 106);
+    float:right;
+    line-height: 60px;
+}
+.c-increatemain{
+    height: 500px;
+    font-size:0;
+}
+.c-increateimg{
+    width: 260px;
+    height: 500px;    
+}
+.c-increatem{
+    width: 676px;
+    height: 500px;
+}
+.c-increatem a{
+    display:inline-block;
+    width: 50%;
+    height: 50%;
+    border-right:1px solid #DDD;
+    border-bottom:1px solid #DDD;
+    color:#000;
+    position:relative;
+}
+.c-increatem .c-name{
+    line-height: 30px;
+    font-size:16px;
+}
+.c-increatem .c-price{
+    line-height: 30px;
+    font-size:16px;
+}
+.c-increatem .c-price span{
+    color:rgb(243, 159, 32);
+    font-size:18px;
+}
+.c-increatem img{
+    height: 180px;
+    width: 180px;
+    margin-left:90px;
+}
+.c-increater{
+    width: 264px;
+    height: 500px;
+    border-right:1px solid #ddd;
+    border-bottom:1px solid #DDD;
+    padding:0 20px;    
+}
+.c-increater h3{
+    line-height: 50px;
+    font-size:16px;
+}
+.c-increaterm a{
+    margin-top:10px;
+    display:inline-block;
+    width: 224px;
+    height: 100px;
+    border-bottom:1px dotted #DDD;
+    color:#000;
+    position:relative;
+}
+.c-increaterm img{
+    width: 75px;
+    height: 75px;
+}
+.c-increaterm .c-name{
+    font-size:12px;
+    width: 149px;
+    padding-left:7px;
+    word-break:break-all;
+}
+.c-increaterm .c-price span{
+    font-size:12px;
+    color:rgb(243, 159, 32);
+    position:absolute;
+    right:100px;
+    bottom:30px;
+}
+
+
+
+
+/* 滋补养生 */
+.c-live .container{
+    height: 580px;
+}
+.c-livetop{
+    border-bottom:1px solid #000;
+}
+.c-livetop h2,.c-livetop p{
+    display:inline-block;
+}
+.c-livetop h2{
+    font-size:22px;
+    line-height: 60px;
+    margin-right:30px;
+}
+.c-livetop p a{
+    color:rgb(109, 107, 107);
+    padding:0 5px;
+}
+.c-livetop p a:hover{
+    border-bottom:1px solid rgb(109, 107, 107);
+}
+.c-livemore{
+    color:rgb(107, 106, 106);
+    float:right;
+    line-height: 60px;
+}
+.c-livemain{
+    height: 500px;
+    font-size:0;
+}
+.c-liveimg{
+    width: 260px;
+    height: 500px;    
+}
+.c-livem{
+    width: 676px;
+    height: 500px;
+}
+.c-livem a{
+    display:inline-block;
+    width: 50%;
+    height: 50%;
+    border-right:1px solid #DDD;
+    border-bottom:1px solid #DDD;
+    color:#000;
+    position:relative;
+}
+.c-livem .c-name{
+    line-height: 30px;
+    font-size:16px;
+}
+.c-livem .c-price{
+    line-height: 30px;
+    font-size:16px;
+}
+.c-livem .c-price span{
+    color:rgb(243, 159, 32);
+    font-size:18px;
+}
+.c-livem img{
+    height: 180px;
+    width: 180px;
+    margin-left:90px;
+}
+.c-liver{
+    width: 264px;
+    height: 500px;
+    border-right:1px solid #ddd;
+    border-bottom:1px solid #DDD;
+    padding:0 20px;    
+}
+.c-liver h3{
+    line-height: 50px;
+    font-size:16px;
+}
+.c-liverm a{
+    margin-top:10px;
+    display:inline-block;
+    width: 224px;
+    height: 100px;
+    border-bottom:1px dotted #DDD;
+    color:#000;
+    position:relative;
+}
+.c-liverm img{
+    width: 75px;
+    height: 75px;
+}
+.c-liverm .c-name{
+    font-size:12px;
+    width: 149px;
+    padding-left:7px;
+    word-break:break-all;
+}
+.c-liverm .c-price span{
+    font-size:12px;
+    color:rgb(243, 159, 32);
+    position:absolute;
+    right:100px;
+    bottom:30px;
+}
+
+
+
+
+/* 健康知识百科 */
+.c-hundred .container{
+    height: 350px;
+}
+.c-hundred h2{
+    font-size:22px;
+    line-height: 60px;
+    display:inline-block;
+}
+.c-hundred h2+a{
+    color:rgb(87, 84, 84);
+    margin-left:865px;
+}
+.c-hundmain{
+    height: 252px;
+    border:1px solid #ddd;
+    padding:20px;
+}
+.c-hundmain ul{
+    width: 33%;
+    height: 33%;
+    display:inline-block;
+}
+.c-hundmain ul li{
+    display:inline-block;
+}
+.c-hundmain a{
+    color:rgb(73,72,72);
+    padding:0 5px;
+    font-size:12px;
+}
+.c-hundmain a:hover{
+    border-bottom:1px solid rgb(73,72,72);
+}
+
+
+
+/* 连接 */
+.c-link .container{
+    height: 160px;
+    border:1px solid #DDD;
+    margin-bottom:20px;
+}
+.c-linktitle{
+    border-bottom:1px solid #DDD;
+}
+.c-linktitle h3{
+    display:inline-block;
+    padding:0 20px;
+    line-height: 40px;
+}
+.c-h3one{
+    padding:10px;
+}
+.c-h3one a{
+    margin:0px 10px;
+    color:rgb(99, 97, 97);
+}
+.c-h3one a:hover{
+    border-bottom:1px solid rgb(99, 97, 97);
+}
+.c-h3two{
+    padding:10px;
+}
+.c-h3two a{
+    margin:0px 10px;
+    color:rgb(99, 97, 97);
+}
+.c-h3two a:hover{
+    border-bottom:1px solid rgb(99, 97, 97);
+}
+.c-h3parent .active{
+    border-bottom: 1px solid orange;
+    color: orange;
+}

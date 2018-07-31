@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Z-列表页</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/list.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <script src="../libs/jquery-3.3.1.js"></script>
+    <script src="../js/list.js"></script>
+    <script src="../js/index.js"></script>
+    <script src="../js/common.js"></script>
+
+    <style>
+    .c-title .container{padding-left: 0;}
+    .c-fixed{right: 9px;top:100px;}
+    </style>
+</head>
+
+<body >
+      <!-- 右边固定窗口 -->
+      <div class="c-fixed">
+            <a href="javascript:;"></a>
+            <a href="javascript:;"></a>
+            <a href="javascript:;">
+                <p>客服电话:400-189-1399
+                    <br/> (每天08:30-22:30)
+                </p>
+            </a>
+            <a href="javascript:;"></a>
+            <a href="javascript:;" class="c-btntop"></a>
+        </div>
+        <!-- 顶部 -->
+        <div class="c-top">
+            <div class="container clearfix">
+                <div class="c-topl f12 fl">
+                    <span>紫一商城欢迎您！</span>
+                    <a href="javascript:;">
+                        <i></i>
+                        <span>扫码关注送30元</span>
+                    </a>
+                    <p></p>
+                </div>
+                <ul class="c-topr f12 fr">
+                    <li>
+                        <span>
+                            <a href="login_register.html">登录</a>
+                        </span>
+                    </li>
+                    <li class="c-i1">
+                        <span>
+                            <a href="login_register.html">
+                                <i></i>注册有礼
+                            </a>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <a href="car.html">我的订单</a>
+                        </span>
+                    </li>
+                    <li class="c-i2">
+                        <span>
+                            <a href="">个人中心
+                                <i></i>
+                            </a>
+                        </span>
+                        <ul>
+                            <li>
+                                <a href="">我的优惠券</a>
+                            </li>
+                            <li>
+                                <a href="">我的积分</a>
+                            </li>
+                            <li>
+                                <a href="">我收藏的商品</a>
+                            </li>
+                            <li>
+                                <a href="">我关注的品牌</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span>客服热线：</span>
+                        <span class="c-phone">400-189-1399</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 标题 -->
+        <div class="c-title">
+            <div class="container clearfix">
+                <img src="../img/logo.jpg">
+                <div class="c-search dib fr">
+                    <input type="text" placeholder="葡萄籽" class="inputSuccess1">
+                    <button class="c-btnsearch"></button>
+                    <button class="c-btnbuycar">
+                        <i></i>
+                        <span>购物车</span>
+                    </button>
+                    <br/>
+                    <a href="#">酵素</a>
+                    <a href="#">牡蛎</a>
+                    <a href="#">蔓越莓</a>
+                    <a href="#">减肥奶昔</a>
+                    <a href="#">维骨力</a>
+                    <a href="#">月见草</a>
+                </div>
+            </div>
+        </div>
+        <!-- 导航条 -->
+        <div class="c-nav">
+            <div class="container">
+                <div class="c-allgoods dib ac">全部商品分类
+                    <ul class="c-allul">
+                        <li>
+                            <h3>健康需求/营养对照&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→</h3>
+                            <a href="">美白祛斑/</a>
+                            <a href="">产后减肥/</a>
+                            <a href="">补肾补肺/</a>
+                            <a href="">DHA/</a>
+                            <a href="">调节三高</a>
+                            <div class="c-alla clearfix">
+                                <div class="c-allmain">
+                                    <div class="c-alltop">
+                                        <img src="../img/person.png" alt="">
+                                        <span>常见健康问题与营养元素对照</span>
+                                    </div>
+                                    <div class="c-alltable">
+                                        <dl>
+                                            <dt>
+                                                <b>调理亚健康</b>
+                                            </dt>
+                                            <dd>
+                                                <a href="/category-60-f62.html">睡眠不好</a>
+                                                <a href="/category-60-f64.html">提高免疫力</a>
+                                                <a href="/category-60-f63.html">便秘</a>
+                                                <a href="/category-60-f99.html">缓解疲劳</a>
+                                                <a href="/category-60-f65.html">脱发/白发</a>
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>
+                                                <b>女性健康</b>
+                                            </dt>
+                                            <dd>
+                                                <a href="/category-30-f32.html">美白祛斑</a>
+                                                <a href="/category-30-f34.html">减肥瘦身</a>
+                                                <a href="/category-30-f37.html">改善贫血</a>
+                                                <a href="/category-30-f39.html">更年期调理</a>
+                                                <a href="/category-30-f97.html">私处养护</a>
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>
+                                                <b>男性健康</b>
+                                            </dt>
+                                            <dd>
+                                                <a href="/category-45-f48.html">解酒护肝</a>
+                                                <a href="/category-45-f46.html">前列腺保养</a>
+                                                <a href="/category-45-f47.html">补肾填精</a>
+                                                <a href="/category-45-f94.html">缓解压力</a>
+                                                <a href="/category-45-f52.html">健身增肌</a>
+                                            </dd>
+                                        </dl>
+                                    </div>
+                                </div>
+                                <div class="c-allside">
+                                    <h3>热门品牌</h3>
+                                    <a href="">
+                                        <img src="../img/9.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/10.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/11.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/12.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/14.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/15.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/16.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/17.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/19.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/20.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/21.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/22.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <h3>健康需求/营养对照&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→</h3>
+                            <a href="">美白祛斑/</a>
+                            <a href="">产后减肥/</a>
+                            <a href="">补肾补肺/</a>
+                            <a href="">DHA/</a>
+                            <a href="">调节三高</a>
+                            <div class="c-alla1 clearfix">
+                                <div class="c-allmain">
+                                    <div class="c-alltop">
+                                        <img src="../img/person.png" alt="">
+                                        <span>常见健康问题与营养元素对照</span>
+                                    </div>
+                                    <div class="c-alltable">
+                                        <dl>
+                                            <dt>
+                                                <b>调理亚健康</b>
+                                            </dt>
+                                            <dd>
+                                                <a href="/category-60-f62.html">睡眠不好</a>
+                                                <a href="/category-60-f64.html">提高免疫力</a>
+                                                <a href="/category-60-f63.html">便秘</a>
+                                                <a href="/category-60-f99.html">缓解疲劳</a>
+                                                <a href="/category-60-f65.html">脱发/白发</a>
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>
+                                                <b>女性健康</b>
+                                            </dt>
+                                            <dd>
+                                                <a href="/category-30-f32.html">美白祛斑</a>
+                                                <a href="/category-30-f34.html">减肥瘦身</a>
+                                                <a href="/category-30-f37.html">改善贫血</a>
+                                                <a href="/category-30-f39.html">更年期调理</a>
+                                                <a href="/category-30-f97.html">私处养护</a>
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>
+                                                <b>男性健康</b>
+                                            </dt>
+                                            <dd>
+                                                <a href="/category-45-f48.html">解酒护肝</a>
+                                                <a href="/category-45-f46.html">前列腺保养</a>
+                                                <a href="/category-45-f47.html">补肾填精</a>
+                                                <a href="/category-45-f94.html">缓解压力</a>
+                                                <a href="/category-45-f52.html">健身增肌</a>
+                                            </dd>
+                                        </dl>
+                                    </div>
+                                </div>
+                                <div class="c-allside">
+                                    <h3>热门品牌</h3>
+                                    <a href="">
+                                        <img src="../img/9.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/10.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/11.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/12.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/14.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/15.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/16.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/17.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/19.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/20.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/21.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/22.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <h3>健康需求/营养对照&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→</h3>
+                            <a href="">美白祛斑/</a>
+                            <a href="">产后减肥/</a>
+                            <a href="">补肾补肺/</a>
+                            <a href="">DHA/</a>
+                            <a href="">调节三高</a>
+                            <div class="c-alla2 clearfix">
+                                <div class="c-allmain">
+                                    <div class="c-alltop">
+                                        <img src="../img/person.png" alt="">
+                                        <span>常见健康问题与营养元素对照</span>
+                                    </div>
+                                    <div class="c-alltable">
+                                        <dl>
+                                            <dt>
+                                                <b>调理亚健康</b>
+                                            </dt>
+                                            <dd>
+                                                <a href="/category-60-f62.html">睡眠不好</a>
+                                                <a href="/category-60-f64.html">提高免疫力</a>
+                                                <a href="/category-60-f63.html">便秘</a>
+                                                <a href="/category-60-f99.html">缓解疲劳</a>
+                                                <a href="/category-60-f65.html">脱发/白发</a>
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>
+                                                <b>女性健康</b>
+                                            </dt>
+                                            <dd>
+                                                <a href="/category-30-f32.html">美白祛斑</a>
+                                                <a href="/category-30-f34.html">减肥瘦身</a>
+                                                <a href="/category-30-f37.html">改善贫血</a>
+                                                <a href="/category-30-f39.html">更年期调理</a>
+                                                <a href="/category-30-f97.html">私处养护</a>
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>
+                                                <b>男性健康</b>
+                                            </dt>
+                                            <dd>
+                                                <a href="/category-45-f48.html">解酒护肝</a>
+                                                <a href="/category-45-f46.html">前列腺保养</a>
+                                                <a href="/category-45-f47.html">补肾填精</a>
+                                                <a href="/category-45-f94.html">缓解压力</a>
+                                                <a href="/category-45-f52.html">健身增肌</a>
+                                            </dd>
+                                        </dl>
+                                    </div>
+                                </div>
+                                <div class="c-allside">
+                                    <h3>热门品牌</h3>
+                                    <a href="">
+                                        <img src="../img/9.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/10.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/11.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/12.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/14.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/15.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/16.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/17.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/19.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/20.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/21.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/22.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <h3>健康需求/营养对照&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→</h3>
+                            <a href="">美白祛斑/</a>
+                            <a href="">产后减肥/</a>
+                            <a href="">补肾补肺/</a>
+                            <a href="">DHA/</a>
+                            <a href="">调节三高</a>
+                            <div class="c-alla3 clearfix">
+                                <div class="c-allmain">
+                                    <div class="c-alltop">
+                                        <img src="../img/person.png" alt="">
+                                        <span>常见健康问题与营养元素对照</span>
+                                    </div>
+                                    <div class="c-alltable">
+                                        <dl>
+                                            <dt>
+                                                <b>调理亚健康</b>
+                                            </dt>
+                                            <dd>
+                                                <a href="/category-60-f62.html">睡眠不好</a>
+                                                <a href="/category-60-f64.html">提高免疫力</a>
+                                                <a href="/category-60-f63.html">便秘</a>
+                                                <a href="/category-60-f99.html">缓解疲劳</a>
+                                                <a href="/category-60-f65.html">脱发/白发</a>
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>
+                                                <b>女性健康</b>
+                                            </dt>
+                                            <dd>
+                                                <a href="/category-30-f32.html">美白祛斑</a>
+                                                <a href="/category-30-f34.html">减肥瘦身</a>
+                                                <a href="/category-30-f37.html">改善贫血</a>
+                                                <a href="/category-30-f39.html">更年期调理</a>
+                                                <a href="/category-30-f97.html">私处养护</a>
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>
+                                                <b>男性健康</b>
+                                            </dt>
+                                            <dd>
+                                                <a href="/category-45-f48.html">解酒护肝</a>
+                                                <a href="/category-45-f46.html">前列腺保养</a>
+                                                <a href="/category-45-f47.html">补肾填精</a>
+                                                <a href="/category-45-f94.html">缓解压力</a>
+                                                <a href="/category-45-f52.html">健身增肌</a>
+                                            </dd>
+                                        </dl>
+                                    </div>
+                                </div>
+                                <div class="c-allside">
+                                    <h3>热门品牌</h3>
+                                    <a href="">
+                                        <img src="../img/9.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/10.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/11.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/12.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/14.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/15.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/16.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/17.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/19.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/20.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/21.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/22.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <h3>健康需求/营养对照&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→</h3>
+                            <a href="">美白祛斑/</a>
+                            <a href="">产后减肥/</a>
+                            <a href="">补肾补肺/</a>
+                            <a href="">DHA/</a>
+                            <a href="">调节三高</a>
+                            <div class="c-alla4 clearfix">
+                                <div class="c-allmain">
+                                    <div class="c-alltop">
+                                        <img src="../img/person.png" alt="">
+                                        <span>常见健康问题与营养元素对照</span>
+                                    </div>
+                                    <div class="c-alltable">
+                                        <dl>
+                                            <dt>
+                                                <b>调理亚健康</b>
+                                            </dt>
+                                            <dd>
+                                                <a href="/category-60-f62.html">睡眠不好</a>
+                                                <a href="/category-60-f64.html">提高免疫力</a>
+                                                <a href="/category-60-f63.html">便秘</a>
+                                                <a href="/category-60-f99.html">缓解疲劳</a>
+                                                <a href="/category-60-f65.html">脱发/白发</a>
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>
+                                                <b>女性健康</b>
+                                            </dt>
+                                            <dd>
+                                                <a href="/category-30-f32.html">美白祛斑</a>
+                                                <a href="/category-30-f34.html">减肥瘦身</a>
+                                                <a href="/category-30-f37.html">改善贫血</a>
+                                                <a href="/category-30-f39.html">更年期调理</a>
+                                                <a href="/category-30-f97.html">私处养护</a>
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>
+                                                <b>男性健康</b>
+                                            </dt>
+                                            <dd>
+                                                <a href="/category-45-f48.html">解酒护肝</a>
+                                                <a href="/category-45-f46.html">前列腺保养</a>
+                                                <a href="/category-45-f47.html">补肾填精</a>
+                                                <a href="/category-45-f94.html">缓解压力</a>
+                                                <a href="/category-45-f52.html">健身增肌</a>
+                                            </dd>
+                                        </dl>
+                                    </div>
+                                </div>
+                                <div class="c-allside">
+                                    <h3>热门品牌</h3>
+                                    <a href="">
+                                        <img src="../img/9.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/10.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/11.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/12.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/14.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/15.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/16.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/17.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/19.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/20.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/21.jpg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="../img/22.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="c-nava dib">
+                    <a href="index.html">
+                        <b>首页</b>
+                    </a>
+                    <a href="" class="c-hottop">
+                        <i></i>
+                        <b>销量TOP</b>
+                    </a>
+                    <a href="">
+                        <b>品牌馆</b>
+                    </a>
+                    <a href="">
+                        <b>健康百科</b>
+                    </a>
+                </div>
+            </div>
+        </div>
+    <div style="width:100%; height:400px; background:url(../img/Z-list-banner.png) no-repeat top center;"></div>
+    <div class="Z-listarea" style="background: #eee;">
+        <div class="container">
+            <div class="Z-listlogo">热门品牌</div>
+            <div class="Z-listcoco">
+                <ul class="Z-ul1 clearfix">
+                    <li>
+                        <img src="../img/c6.jpg" alt="">
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../img/Z-list-cc1.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <img src="../img/c5.jpg" alt="">
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../img/Z-list-cc2.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+                <ul class="Z-ul2 clearfix">
+                    <li>
+                        <a href="#">
+                            <img src="../img/Z-list-cc3.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../img/Z-list-cc4.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../img/Z-listcc4.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../img/Z-listcc5.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="Z-listlogo">保健品排行榜</div>
+            <div class="Z-hellococo clearfix">
+                <!-- <div class="Z-shujv">
+                    <img src="../img/Z-list-cc8.jpg" alt="">
+                    <div class="Z-goodboys">
+                        <div class="Z-money">￥159.00</div>
+                        <span class="Z-jieshi">
+                            <a href="#">澳洲swisse护肝片</a>
+                        </span>
+                        <br>
+                        <span class="Z-jieshi">
+                            <a href="#">解酒护肝、排出毒素</a>
+                        </span>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <div class="c-bottom">
+            <div class="container">
+                <img src="../img/bottom.PNG" class="c-bottomimg">
+                <div class="c-downlist clearfix">
+                    <div class="c-downtext dib">
+                        <ul>
+                            <li>新手指南</li>
+                            <li>
+                                <a href="">注册登录</a>
+                            </li>
+                            <li>
+                                <a href="">购物流程</a>
+                            </li>
+                            <li>
+                                <a href="">会员制度</a>
+                            </li>
+                            <li>
+                                <a href="">常见问题</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>关于支付</li>
+                            <li>
+                                <a href="">在线支付</a>
+                            </li>
+                            <li>
+                                <a href="">货到付款</a>
+                            </li>
+                            <li>
+                                <a href="">发票</a>
+                            </li>
+                            <li>
+                                <a href="">优惠券使用</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>关于配送</li>
+                            <li>
+                                <a href="">配送方式</a>
+                            </li>
+                            <li>
+                                <a href="">配送费用</a>
+                            </li>
+                            <li>
+                                <a href="">收货验货</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>售后服务</li>
+                            <li>
+                                <a href="">退换货政策</a>
+                            </li>
+                            <li>
+                                <a href="">退还流程</a>
+                            </li>
+                            <li>
+                                <a href="">投诉建议</a>
+                            </li>
+                            <li>
+                                <a href="">营养师服务</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="c-downimg dib fr">
+                        <img src="../img/number.PNG">
+                        <img src="../img/phone.jpg">
+                        <img src="../img/app.jpg">
+                        <p>
+                            <span>手机版商城</span>
+                            <span>官方微信</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="c-down ac">
+            <div class="c-downt">
+                <a href="">关于我们</a>
+                <a href="">联系我们</a>
+                <a href="">商城合作</a>
+                <a href="">招贤纳士</a>
+                <a href="">友情链接</a>
+                <a href="">网站地图</a>
+            </div>
+            <div class="c-downm f12">
+                <a href="">企业营业执照</a>
+                <a href="">食品经营许可证</a>
+                <a href="">增值电信业务经营许可证</a>
+                <a href="">备案号：湘ICP备11008736号-3</a>
+                <br> Copyright @ 2013-2018 湖南紫一健康产业有限公司 版权所有
+            </div>
+            <div class="c-downb">
+                <img src="../img/mp.png">
+                <img src="../img/ry.png">
+            </div>
+        </div>
+</body>
+
+</html>

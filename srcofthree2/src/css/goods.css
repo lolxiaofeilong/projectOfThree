@@ -1,0 +1,145 @@
+body{font-size: 14px;}
+.red{
+    color: #f42f2f
+}
+.Z-goodsimg{
+    width: 450px;
+    height: 565px;
+    float: left;
+}
+.Z-goodsDetail{
+    width: 720px;
+    height: 515px;
+    float: left;
+    margin: 0 0 0 30px;
+}
+.mire{
+    color: #999;
+    margin-bottom: 16px;
+}
+#goods-name{
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.in-price{
+    background: #f8f8f8;
+    border-bottom: #e1e1e1 1px solid;
+    width: 720px;
+    height: 60px;
+    display: table;
+    position: relative;
+}
+.myou{
+    width: 720px;
+    height: 35px;
+    margin-top: 12px;
+}
+.Z-sales{
+    background: #f8f8f8;
+    border-bottom: #e1e1e1 1px solid;
+    width: 720px;
+    height: 60px;
+    display: table;
+    position: relative;
+    line-height: 60px;
+}
+.Z-sales span{
+    float: left;
+    display: inline-block;
+}
+.Z-salesm1{
+    margin-right: 20px
+}
+.Z-salesm2{
+    font-size: 26px;
+    color: #f42f2f;
+    font-family: arial;
+    font-weight: bold;
+}
+.Z-salesm3{
+    margin: 0 10px;
+}
+.Z-salesm4{
+    margin: 0px 10px 0 10px;
+    color: #999;
+    font-size: 13px;
+}
+.Z-wufu{
+    margin-top:10px;
+}
+.Z-pingjia1{
+    margin-left: 20px;
+}
+.Z-qtyReduce,.Z-qtyjia{
+    border: #ddd 1px solid;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    display: inline-block;
+    text-align: center;
+    margin-left: -1px;
+}
+.Z-goodsqty{
+    width: 42px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+}
+#Z-buy{
+    display: inline-block;
+    width: 180px;
+    height: 40px;
+    background: #fff;
+    border: #f42f2f 1px solid;
+    color: #f42f2f;
+    margin-right: 10px;
+    display: table;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+}
+#Z-car{
+    display: inline-block;
+    width: 178px;
+    height: 40px;
+    line-height: 40px;
+    background: #f42f2f ;
+    display: table;
+    color: #fff;
+    float: left;
+    text-align: center;
+}
+.Z-wufu,.Z-pingjia,.Z-qty{
+    margin-bottom: 30px;
+}
+.Z-buycar,.doment{
+    margin:0 0 30px 40px;
+
+}
+.Z-abc{
+    height: 38px;
+    background: #eaeaea;
+    border: #eaeaea 1px solid;
+}
+.Z-abc>ul >li {
+    float: left;
+    cursor: pointer;
+    height: 38px;
+    line-height: 38px;
+    font-weight: bold;
+    text-align: center;
+    width: 125px;
+    overflow: hidden;
+    margin-left: 120px;
+}
+.active{
+    color: #f42f2f;
+    border-top: #f42f2f 2px solid;
+    margin-top: -2px;
+    background: #fff url(../img/Z-goods2.png) no-repeat center 25px;
+}
+.Z-qtyReduce,.Z-qtyjia{
+    cursor: pointer;
+}

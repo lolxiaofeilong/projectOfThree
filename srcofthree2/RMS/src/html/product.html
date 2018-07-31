@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>product</title>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <link rel="stylesheet" type="text/css" href="../css/header_footer.css" />
+    <link rel="stylesheet" type="text/css" href="../css/product.css">
+    <script src="../libs/jquery-3.3.1.js"></script>
+    <script src="../js/product.js"></script>
+
+    <style>
+    .btn{
+        padding: 0 12px;
+    }
+    </style>
+</head>
+
+<body>
+    <header id="header">
+
+    </header>
+    <main id="main">
+        <div class="row">
+            <ul class="nav col-md-2" id="bigul">
+
+                <li class="navproduct">
+                    <p class="btn btn-default btn-lg anim" id="productBtn">产品管理</p>
+                </li>
+                <li class="navpurchase ">
+                    <p class="btn btn-default btn-lg anim" id="purchaseBtn">采购管理</p>
+                    <ul class="smallul">
+                        <li class="btn btn-default btn-lg">
+                            <a href="purchase.html">采购进货</a>
+                        </li>
+                        <li class="btn btn-default btn-lg">
+                            <a href="supplier.html">供货商管理</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navwarehouse ">
+                    <p class="btn btn-default btn-lg anim" id="warehouseBtn">
+                        <a href=""></a>仓库管理</p>
+                    <ul class="smallul">
+                        <li class="btn btn-default btn-lg">
+                            <a href="warehouse.html">库存管理</a>
+                        </li>
+                        <li class="btn btn-default btn-lg">
+                            <a href="receive.html">收货管理</a>
+                        </li>
+                        <li class="btn btn-default btn-lg">
+                            <a href="return.html">退货管理</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navsell ">
+                    <p class="btn btn-default btn-lg anim" id="sellBtn">客服管理</p>
+                    <ul class="smallul">
+                        <li class="btn btn-default btn-lg" id="putaway">
+                            <a href="grounding.html">客户咨询</a>
+                        </li>
+                        <li class="btn btn-default btn-lg" id="sellGoods">
+                            <a href="sellGoods.html">服务条款</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="content col-md-10">
+                <ul class="top row">
+                    <li class="li_purchase reserve col-md-4">
+                        <a href="#" class="btn btn-default" id="purchase">产品管理</a>
+                    </li>
+                </ul>
+
+                <div id="product_box">
+                    <!-- <div class="condition">
+                        <div class="row">
+                            <div class="firm col-md-4">
+                                <span>供货商名称：</span>
+                                <input name="firmSel" id="firmSel"/>
+                            </div>
+                            <div class="classify col-md-4">
+                                <span>商品名称：</span>
+                                <input name="classSel" id="classSel" class="classSel1"/>
+                            </div>
+                            <div class="classify col-md-4">
+                                <span>商品分类：</span>
+                                <input name="classSel" id="classSel" class="classSel2"/>
+                            </div>
+                            <div class="col-md-4" style="margin-top:30px">
+                                <button class="btn btn-success btn-xs" id="clearSearch1">确认</button>
+                            </div>
+                        </div>
+                    </div> -->
+                    <div class=" search form-group has-success has-feedback col-xs-4">
+                        <input type="text" class="form-control" id="inputSuccess1" aria-describedby="inputSuccess2Status">
+                        <button type="button" class="btn btn-success" id="blurSearch1">搜索</button>
+                    </div>
+
+                    <table class="table table-bordered table-hover">
+                        <caption>商品管理表</caption>
+                        <thead>
+                            <tr>
+                                <th>商品编码</th>
+                                <th>商品名称</th>
+                                <th>商品图片</th>
+                                <th>现价</th>
+                                <th>原价</th>
+                                <th>功效</th>
+                                <th>规格</th>
+                                <th>用量</th>
+                                <th>
+                                    <button class="btn btn-success btn-xs delect_product" id="add_product">全部删除</button>
+                                </th>
+                                <th></th>
+                            </tr>
+                            <tr class="Z-bobo">
+                                    <td><input type="text" class="Z-a" value="86"></td>
+                                    <td><input type="text" class="Z-b"></td>
+                                    <td><input type="text" class="Z-c" value="../ListImg/"></td>
+                                    <td><input type="text" class="Z-d"></td>
+                                    <td><input type="text" class="Z-e"></td>
+                                    <td><input type="text" class="Z-f"></td>
+                                    <td><input type="text" class="Z-g" value="500ml*瓶"></td>
+                                    <td><input type="text" class="Z-h" value="一日三次"></td>
+                                    <td>
+                                        <button class="btn btn-success btn-xs Z-btn" id="add_product">添加</button>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                        </thead>
+                        <tbody class="Z-fuck"> 
+                            <!-- <tr class="Z-gan">
+                                <td>商品编码</td>
+                                <td>商品名称</td>
+                                <td>商品分类</td>
+                                <td>库存</td>
+                                <td>供货商</td>
+                                <td>是否上架</td>
+                                <td>是否上架</td>
+                                <td>是否上架</td>
+                                <th>
+                                    <button class="btn btn-success btn-xs" id="add_product">更新</button>
+                                </th>
+                                <th><button class="btn">x</button></th>
+                            </tr> -->
+                        </tbody>
+                    </table>
+                    <div class="add_pro_box">
+                        <h3>登记供货商信息</h3>
+                        <label for="goods_order">商品编码：</label>
+                        <input type="text" id="goods_order" class="form-control">
+                        <label for="goods_code">商品条码：</label>
+                        <input type="text" id="goods_code" class="form-control">
+                        <label for="goods_name">商品名称：</label>
+                        <input type="text" id="goods_name" class="form-control">
+                        <label for="goods_classify">商品分类：</label>
+                        <input type="text" id="goods_classify" class="form-control">
+                        <label for="goods_qty">库存：</label>
+                        <input type="text" id="goods_qty" class="form-control">
+                        <label for="sup_name">供货商：</label>
+                        <input type="text" id="sup_name" class="form-control">
+                        <label for="prime_price">进价：</label>
+                        <input type="text" id="prime_price" class="form-control">
+                        <label for="sale_price">售价：</label>
+                        <input type="text" id="sale_price" class="form-control">
+                        <label for="putaway">是否上架：</label>
+                        <input type="text" id="putaway" class="form-control">
+                        <input type="button" id="addToPro" value="添加" class="btn btn-success btn-xs">
+
+                        <span class="close">&times;</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <footer id="footer">
+
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+li,ul{list-style:none;}
+.container{width: 1200px;margin:0 auto;}
+.fl{float: left;}
+.fr{float:right;}
+a{text-decoration: none;}
+
+#first{}
+#first .container{height: 104px;position:relative;}
+#first .container .right{height: 100px;width: 475px;}
+
+
+#second{width: 100%;}
+#second .container{}
+#second .container table{overflow: hidden;}
+/* #second .container table tr{} */
+
+/* 生成的数据行 */
+/* #second .container table tr{border:1px solid red;} */
+#second .container table tr td{border-bottom:1px solid blue;}
+#second .container table tr td:nth-child(1){width: 155px;height: 141px;padding:0 10px 20px 10px;}
+#second .container table tr td:nth-child(1) img{width: 80px;height: 60px;}
+#second .container table tr td:nth-child(2){width: 455px;height: 141px;padding:0 10px 20px 10px;}
+#second .container table tr td:nth-child(3){width: 180px;height: 141px;padding:0 10px 20px 10px;}
+#second .container table tr td:nth-child(4){width: 170px;height: 141px;padding:0 10px 20px 10px;}
+#second .container table tr td:nth-child(4) input{width: 30px;height: 20px;text-align: center;}
+
+
+
+#second .chacha{color:red;font-size: 30px;}
+#second .container table tr td:nth-child(5){width: 160px;height: 141px;padding:0 10px 20px 10px;}
+#second .container table tr td:nth-child(6){width: 80px;height: 141px;padding:0 10px 20px 10px;}
+/* 第一行 */
+#second .container table .one td:nth-child(1){width: 155px;height: 21px;padding:0 10px;line-height: 21px;;}
+#second .container table .one td:nth-child(2){width: 455px;height: 21px;padding:0 10px;}
+#second .container table .one td:nth-child(3){width: 180px;height: 21px;padding:0 10px;}
+#second .container table .one td:nth-child(4){width: 170px;height: 21px;padding:0 10px;}
+#second .container table .one td:nth-child(5){width: 160px;height: 21px;padding:0 10px;}
+#second .container table .one td:nth-child(6){width: 80px;height: 21px;padding:0 10px;}
+
+#second .container table .one td a{display:block;width: 170px;height: 30px;background:url("../img/hfl_changecolor.png") no-repeat 0 0;font-size:10px;color:black;line-height: 30px;text-align:center;}
+#second .container table .one td a:hover{background:url("../img/hfl_changecolor.png") no-repeat 0 -40px;}
+
+#third{}
+#third .container{height: 60px;background-color: #ccc;}
+#third .container .one{}
+#third .container .one li{float: left;margin:0 10px;line-height: 60px;}
+#third .container .two li{float: left;}
+#third .container .two>li:last-child{width: 80px;height: 60px;background-color: red;line-height: 60px;text-align:center;color:#fff;}
+#third .container .two>li:first-child{width: 200px;text-align: right;}
+#third .container .two>li:first-child ul li:first-child{font-size: 12px;padding-top:10px;}
+#third .container .two>li:first-child ul li:first-child span{color:red;font-size: 16px;font-weight: bold;}
+#third .container .two>li:first-child ul li:last-child{font-size: 12px;color:#333;padding-top:5px;}
+
+
+
+#four .container{height: 65px;padding-top:35px;border-bottom:1px solid #ccc;}
+#four .container p{height: 30px;line-height: 20px;font-size: 20px;}
+#four .container p span{display:inline-block;font-size: 14px;padding-left:20px;color:#bbb;}
+
+#five .container ul li{position:relative;float: left;text-align: center;font-size:12px;margin:10px;width: 250px;overflow: hidden;border:1px solid #fff;}
+#five .container ul li div{width: 250px;height: 250px;overflow: hidden;text-align:center;line-height: 250px;}
+#five .container ul li img{width: 250px;}
+#five .container ul li p{text-align: left;padding-left:20px;font-size: 14px;}
+#five .container ul li p:nth-child(2){color:red;}
+#five .container ul li p:nth-child(2) span{font-size: 20px;}
+#five .container ul li p:nth-child(4){font-size: 12px;color:#555;}
+#five .container ul li p:nth-child(5){font-size: 12px;color:#555;}
+#five .container ul li p:nth-child(5) span{display:block;}
+#five .container ul li p:nth-child(5) span:first-child{float: left;}
+#five .container ul li p:nth-child(5) span:last-child{float: right;padding-right:20px;}
+
+/* #five .container ul li .up{width: 0px;position:absolute;left:0;top:0;height:1px;background-color: red;}
+#five .container ul li .right{width: 1px;position:absolute;left:248px;top:0;height:0px;background-color: red;}
+#five .container ul li .down{width: 0px;position:absolute;left:0;top:325.6px;height:1px;background-color: red;}
+#five .container ul li .left{width: 1px;position:absolute;left:0;top:0;height:0px;background-color: red;} */
+
+
+
+#five .container ul li:hover img{width: 260px;}
+#five .container ul li:hover{border:1px solid red;}
+/* #five .container ul li:hover .up{width: 249px;}
+#five .container ul li:hover .right{height: 327px;}
+#five .container ul li:hover .down{width: 249px;}
+#five .container ul li:hover .left{height: 327px;} */
+
+
+
+
+/* #five .container ul li .up{width: 249px;position:absolute;left:0;top:0;height:1px;background-color: red;}
+#five .container ul li .right{width: 1px;position:absolute;left:248px;top:0;height:327px;background-color: red;}
+#five .container ul li .down{width: 249px;position:absolute;left:0;top:325.6px;height:1px;background-color: red;}
+#five .container ul li .left{width: 1px;position:absolute;left:0;top:0;height:327px;background-color: red;} */
+
+
